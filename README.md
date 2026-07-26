@@ -1,10 +1,15 @@
 # lyla-prototype
 
-Prototype IA local-first - assistante francophone Lyla.
+Prototype IA local-first · assistante francophone Lyla.
+
+> **PoC historique (2026).** Ce n'est **pas** le produit Lyla actuel.  
+> Suite = briques privees (Vision, Avatar, Lana, Nora, Iris…) · hub : [AI-Lab-Journal](https://github.com/Peter-Ufens/AI-Lab-Journal).  
+> **Pas d'installateur MSI.**
 
 ## Statut
 
 proof-of-concept. Code minimal pour valider une integration Gemini + LangChain + Server-Sent Events. Pas destine a la production.
+
 
 ## Public vise
 
@@ -50,7 +55,8 @@ Ce projet est un prototype, pas un produit. Limites volontaires :
 - Bind localhost uniquement (127.0.0.1), ne pas exposer sur Internet.
 - Une seule conversation simultanee.
 
-Pour une version durcie, voir le projet prive Companion-OS.
+Pour une suite locale (lab prive), voir le hub [AI-Lab-Journal](https://github.com/Peter-Ufens/AI-Lab-Journal) (section Lyla / ecosysteme). Le monolithe `Companion-OS` reste prive et **sans packaging MSI**.
+
 
 ## Licence
 
